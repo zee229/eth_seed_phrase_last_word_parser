@@ -45,10 +45,10 @@ def process_phrase(args):
             break
         while True:
             try:
-                incomplete_phrase[unknown_word1_number] = word
+                incomplete_phrase[unknown_word1_number-1] = word
 
                 for word2 in all_word_list:
-                    incomplete_phrase[unknown_word2_number] = word2
+                    incomplete_phrase[unknown_word2_number-1] = word2
                     wallet_address = ''
 
                     balance = 0
