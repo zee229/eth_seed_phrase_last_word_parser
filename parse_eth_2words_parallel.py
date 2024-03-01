@@ -22,7 +22,6 @@ Account.enable_unaudited_hdwallet_features()
 
 with open('bip39.txt', 'r') as f:
     word_list = [word.replace('\n', '') for word in f.readlines()]
-    # word_list = word_list[::-1]
 
 all_word_list = word_list
 
